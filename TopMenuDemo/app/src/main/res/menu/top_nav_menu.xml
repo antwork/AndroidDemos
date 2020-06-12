@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miSetting"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miCloud"
+        android:title="Clouds"
+        android:icon="@drawable/ic_cloud"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/miProfile"
+        android:title="Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/miPhone"
+        android:title="Phone"
+        app:showAsAction="never" />
+</menu>
